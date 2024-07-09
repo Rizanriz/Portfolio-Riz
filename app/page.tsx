@@ -1,4 +1,8 @@
+import Contact from "@/components/main/Contact";
+import Encryption from "@/components/main/Encryption";
+import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
+import Projects from "@/components/main/Project";
 import Skills from "@/components/main/Skills";
 import Image from "next/image";
 
@@ -8,6 +12,11 @@ export default function Home() {
       <div className="flex flex-col gap-20">
           <Hero/>
           <Skills/>
+          {/* <Encryption/> */}
+          <Projects/>
+          <Contact/>
+          <hr />
+          <Footer/>
       </div>
     </main>
   );

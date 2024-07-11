@@ -4,6 +4,7 @@ import Footer from "@/components/main/Footer";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Project";
 import Skills from "@/components/main/Skills";
+import Text from "@/components/main/Text";
 import Image from "next/image";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
           <Hero/>
           <Skills/>
           {/* <Encryption/> */}
+          <Text/>
           <Projects/>
           <Contact/>
           <hr />

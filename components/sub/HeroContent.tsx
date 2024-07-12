@@ -11,7 +11,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
+      className='main flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'
     >
       <div className="w-full h-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div  
@@ -23,7 +23,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 leading-normal mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="hero flex flex-col gap-6 leading-normal mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         > 
           <span>
             Mohammed
@@ -39,7 +39,7 @@ const HeroContent = () => {
         </motion.div>
 
         <motion.p variants={slideInFromLeft(0.8)}
-          className='text-lg text-gray-400 my-5 max-w-[600px]'>
+          className='text text-lg text-gray-400 my-5 max-w-[600px]'>
           I&apos;m a full stack developer with experience in Website,
           Mobile and Software development.Check out my projects and skills.
         </motion.p>
@@ -52,7 +52,7 @@ const HeroContent = () => {
       </div>
 
       <motion.div variants={slideInFromRight(0.8)}
-        className='w-full h-full flex justify-center items-center'>
+        className='icon w-full h-full flex justify-center items-center'>
         <Image
           src="/mainIconsdark.svg"
           alt="work icon" height={650} width={650}

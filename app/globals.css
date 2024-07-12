@@ -139,14 +139,20 @@ form input{
 }
 
 @media (max-width:430px) {
+  .nav{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
   .main{
     flex-direction: column;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
   .icon{
     display: none;
   }
   .hero span{
-    font-size: 6vw;
+    font-size: 7vw;
     width: 100%;
   }
   .text{
@@ -156,10 +162,12 @@ form input{
  
 @media (max-width:650px) {
   .items{
-    font-size: 2vw;
+    width: 700px;
+    font-size: 2.5vw;
+    
   }
   .icons{
-    font-size: 10px;
+    font-size: 15px;
   }
   .logo{
     display: none;

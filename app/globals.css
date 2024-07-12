@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@font-face {
+  font-family: x;
+  src: url(../public/NotoSerif_Condensed-ExtraBoldItalic.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -124,6 +129,12 @@ form input{
  #text{
   height: 130px;
 }
+.card:hover{
+  transform: scale(1.1)
+}
+.footer{
+  font-family: x;
+}
 
 @media (max-width:1000px) {
     .contact div{
@@ -145,18 +156,18 @@ form input{
   }
   .main{
     flex-direction: column;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
   .icon{
     display: none;
   }
   .hero span{
-    font-size: 7vw;
+    font-size: 8vw;
     width: 100%;
   }
   .text{
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
  
@@ -164,13 +175,23 @@ form input{
   .items{
     width: 700px;
     font-size: 2.5vw;
-    
+
   }
   .icons{
     font-size: 15px;
   }
   .logo{
     display: none;
+  }
+  .texts{
+    font-size: 6.5vw;
+  }
+  .img{
+    height: 7vw;
+  }
+  .footer{
+    flex-direction: column;
+    line-height: 40px;
   }
 } 
 

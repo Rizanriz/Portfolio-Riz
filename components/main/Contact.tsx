@@ -29,7 +29,7 @@ function Contact(){
 
     return(
         <div className="connect">
-        <section id="Contact" className="z-[99] w-[80%] border border-[#2A0E61]">
+        <section id="Contact" className="z-[99] w-[98%] border border-[#2A0E61]">
             <div className="contact">
                 <div>
                     <h2>Contact Me</h2>
@@ -43,7 +43,7 @@ function Contact(){
                     <input type="email" name="email" placeholder="Enter email" id="email" required/>
                     <label>Message :</label>
                     <textarea className="p-3 border rounded-md" name="message" placeholder="Message" id="text" required />
-                    <div style={{width:"100%"}} className="flex justify-center"> 
+                    <div style={{width:"100%"}} className="flex justify-center mt-5"> 
                    <button type="submit" className="text-white button-primary rounded-lg max-w-[200px] px-10 py-2">Send</button>
                     </div>
                 </form>

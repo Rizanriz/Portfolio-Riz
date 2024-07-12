@@ -57,12 +57,12 @@ const Slide: React.FC<SlideProps> = ({ src, direction, left, progress }) => {
 const Phrase: React.FC<PhraseProps> = ({ src }) => {
   return (
     <div className={'px-5 flex gap-10 items-center'}>
-      <p className='text-[2.5vw] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <p className='texts text-[2.5vw] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects'>Front End Developer</p>
-      <p className='text-[2.5vw] text-white'>Back End Developer</p>
-      <span className="relative h-[4.5vw] aspect-[4/2] rounded-full overflow-hidden">
+      <span className="img relative h-[4.5vw] aspect-[5/2] rounded-full overflow-hidden">
         <Image src={src} alt="image" layout="fill" objectFit="cover" />
       </span>
+      <p className='texts text-[2.5vw] text-white'>Back End Developer</p>
     </div>
   )
 }

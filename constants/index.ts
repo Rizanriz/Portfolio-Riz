@@ -186,8 +186,8 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
+      skill_name: "github",
+      Image: "/gitwhite.png",
       width: 70,
       height: 70,
     },
@@ -213,20 +213,20 @@ export const Skill_data = [
   
   export const Full_stack = [
     {
-      skill_name: "React Native",
-      Image: "/ReactNative .png",
+      skill_name: "Adobe",
+      Image: "/Adobe.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Canva",
+      Image: "/Canva.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Docker",
-      Image: "/docker.webp",
+      skill_name: "photoshop",
+      Image: "/photoshop.png",
       width: 70,
       height: 70,
     },

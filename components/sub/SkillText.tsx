@@ -21,7 +21,7 @@ const SkillText = () => {
 
         <motion.div variants={slideInFromRight(0.5)} 
         className='cursive text-[29px] text-gray-200 mb-10 mt-[10px] text-center'>
-            Never miss a task , deadline or idia
+            Skills that i have acquired over the years
         </motion.div>
     </div>
   )

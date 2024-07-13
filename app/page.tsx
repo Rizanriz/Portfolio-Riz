@@ -5,7 +5,7 @@ import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Project";
 import Skills from "@/components/main/Skills";
 import Text from "@/components/main/Text";
-import Image from "next/image";
+import Slider from "@/components/sub/Slider";
 
 export default function Home() {
   return (
@@ -13,9 +13,10 @@ export default function Home() {
       <div className="flex flex-col gap-20">
           <Hero/>
           <Skills/>
-          {/* <Encryption/> */}
           <Text/>
+          {/* <Encryption/> */}
           <Projects/>
+          <Slider/>
           <Contact/>
           <hr />
           <Footer/>

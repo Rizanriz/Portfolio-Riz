@@ -169,6 +169,10 @@ form input{
   .text{
     font-size: 4vw;
   }
+  .video{
+    top: -105px;
+    height: 60%;
+  }
 }
  
 @media (max-width:650px) {

@@ -89,3 +89,9 @@
 .item8 {
   animation-delay: calc(15s / 8 * (8 - 8) * -1);
 }
+
+@media (max-width:600px) {
+  .wrapper{
+    mask-image: none;
+  }
+}

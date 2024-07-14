@@ -14,13 +14,13 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10 ">
         <ProjectCard
           src="/food.png"   
-          title="Modern Next.js Portfolio"
+          title="Modern Food Delivery App"
           description="A food delivery application crafted with the powerful MERN stack (MongoDB, Express.js, React, and Node.js)."
           repoUrl="https://github.com/Rizanriz/Food-Delivery-App"
         />
         <ProjectCard 
           src="/spotify.png" 
-          title="Interactive Website Cards"
+          title="Spotify Lite"
           description="Spotify lite using React JS and Tailwind CSS. Leveraging React DOM for seamless user experience, I've crafted a visually appealing and highly functional front end."
           repoUrl="https://github.com/Rizanriz/Spotify-Clone"
         />
@@ -35,13 +35,13 @@ const Projects = () => {
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 ">
         <ProjectCard
           src="/project imgs/quiz.png"   
-          title="Modern Next.js Portfolio"
+          title="Quiz App built using React "
           description="A food delivery application crafted with the powerful MERN stack (MongoDB, Express.js, React, and Node.js)."
           repoUrl="https://github.com/Rizanriz/Food-Delivery-App"
         />
         <ProjectCard 
           src="/project imgs/ChatApp.png" 
-          title="Interactive Website Cards"
+          title="Chat app built using MERN"
           description="Spotify lite using React JS and Tailwind CSS. Leveraging React DOM for seamless user experience, I've crafted a visually appealing and highly functional front end."
           repoUrl="https://github.com/Rizanriz/Spotify-Clone"
         />

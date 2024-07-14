@@ -1,4 +1,3 @@
-import { Socials } from '@/constants'
 import Image from 'next/image'
 import React from 'react'
 import { RxGithubLogo, RxInstagramLogo, RxLinkedinLogo } from 'react-icons/rx'
@@ -25,18 +24,8 @@ const Navbar = () => {
                 <div className="icons flex gap-5 cursor-pointer text-white text-xl">
                         <a href="https://www.linkedin.com/in/mohammedrizwanka" target='_blank'><RxLinkedinLogo /></a>
                         <a href="https://github.com/Rizanriz" target='_blank'><RxGithubLogo /></a>
-                        <a href="https://www.linkedin.com/in/mohammedrizwanka" target='_blank'><RxInstagramLogo /></a>
+                        <a href="https://www.instagram.com/riz_z_z_?igsh=NTlram95Nm9qbmx1" target='_blank'><RxInstagramLogo /></a>
                 </div>
-
-                {/* <div className='flex flex-row gap-5 cursor-pointer'>
-                    {
-                        Socials.map((social) => (
-                            <Image src={social.src} alt={social.name} key={social.name}
-                                width={24} height={24} />
-                        ))
-                    }
-                </div> */}
-
             </div>
         </div>
 

@@ -192,22 +192,22 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "My SQL",
-      Image: "/mysql.png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      skill_name: "git",
+      Image: "/git.jpg",
       width: 80,
       height: 80,
+    },
+    {
+      skill_name: "stripe",
+      Image: "/stripe.webp",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "web3form",
+      Image: "/web3form.png",
+      width: 70,
+      height: 70,
     },
   ];
   
@@ -235,7 +235,7 @@ export const Skill_data = [
       skill_name: "Figma",
       Image: "/figma.png",
       width: 50,
-      height: 50,
+      height: 40,
     },
   
   ];

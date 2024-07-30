@@ -25,12 +25,14 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="hero flex flex-col gap-6 leading-normal mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
         > 
+       
           <span>
+          <span>Hai I&apos;m</span> <br />
             Mohammed
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               Rizwan{" "}
-            </span>
+            </span> <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
               ME(A)RN{" "}

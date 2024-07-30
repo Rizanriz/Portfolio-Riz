@@ -37,19 +37,19 @@ const Projects = () => {
           src="/project imgs/quiz.png"   
           title="Quiz App built using React "
           description="A food delivery application crafted with the powerful MERN stack (MongoDB, Express.js, React, and Node.js)."
-          repoUrl="https://github.com/Rizanriz/Food-Delivery-App"
+          repoUrl="https://github.com/Rizanriz/Quiz-App"
         />
         <ProjectCard 
           src="/project imgs/ChatApp.png" 
           title="Chat app built using MERN"
           description="Spotify lite using React JS and Tailwind CSS. Leveraging React DOM for seamless user experience, I've crafted a visually appealing and highly functional front end."
-          repoUrl="https://github.com/Rizanriz/Spotify-Clone"
+          repoUrl="https://github.com/Rizanriz/MERN-Chat-App"
         />
         <ProjectCard
           src="/project imgs/weatherApp.png"
           title="Space Themed Website"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          repoUrl="https://github.com/Rizanriz/Portfolio-Riz"
+          repoUrl="https://github.com/Rizanriz/React-Weather-App"
         />
       </div>
       

@@ -149,6 +149,41 @@ form input{
     }
 }
 
+
+@media (max-width:650px) {
+  .hero span{
+    font-size: 6vw;
+  }
+  .main{
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .icon{
+    display: none;
+  }
+  .items{
+    width: 700px;
+    font-size: 2.5vw;
+  }
+  .icons{
+    font-size: 15px;
+  }
+  .logo{
+    display: none;
+  }
+  .texts{
+    font-size: 6.5vw;
+  }
+  .img{
+    height: 7vw;
+  }
+  .footer{
+    flex-direction: column;
+    line-height: 40px;
+  }
+} 
+
 @media (max-width:430px) {
   .nav{
     padding-left: .5rem;
@@ -175,27 +210,3 @@ form input{
   }
 }
  
-@media (max-width:650px) {
-  .items{
-    width: 700px;
-    font-size: 2.5vw;
-
-  }
-  .icons{
-    font-size: 15px;
-  }
-  .logo{
-    display: none;
-  }
-  .texts{
-    font-size: 6.5vw;
-  }
-  .img{
-    height: 7vw;
-  }
-  .footer{
-    flex-direction: column;
-    line-height: 40px;
-  }
-} 
-

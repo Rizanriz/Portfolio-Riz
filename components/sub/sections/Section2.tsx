@@ -6,7 +6,7 @@ const Section2 = () => {
     <>
        <section id="about">
              <div className='about'>
-                <div className="about_info mt-10 sm:mt-0" >
+                <div className="about_info" >
                     <h3 > EXPIRIENCE</h3>
                     <p> For the past seven months, I have been a part of Luminar Technolab, where I have honed my skills in the MERN stack . During this time, I have worked on various projects, enhancing my expertise in building responsive and dynamic web applications.
                        My experience at Luminar has equipped me with hands-on knowledge in full-stack development, solidifying both my technical and problem-solving abilities.</p>

@@ -33,7 +33,7 @@ export default function Home() {
       <div className='h-[5vh]' />
       <div ref={container}>
         <Slide src={Picture1} direction={'left'} left={"-35%"} progress={scrollYProgress} />
-        <Slide2 src={Picture2} direction={'right'} left={"-15%"} progress={scrollYProgress} />
+        <Slide2 src={Picture2} direction={'right'} left={"-20%"} progress={scrollYProgress} />
         <Slide1 src={Picture3} direction={'left'} left={"-35%"} progress={scrollYProgress} />
       </div>
       {/* <div className='h-[10vh]' /> */}
@@ -50,6 +50,7 @@ const Slide: React.FC<SlideProps> = ({ src, direction, left, progress }) => {
       <Phrase src={src} />
       <Phrase src={src} />
       <Phrase src={src} />
+      <Phrase src={src} />
     </motion.div>
   );
 }
@@ -57,6 +58,7 @@ const Slide1: React.FC<SlideProps> = ({ src, direction, left, progress }) => {
   const translateX = useTransform(progress, [0, 1], [150 * (direction === 'left' ? -1 : 1), -150 * (direction === 'left' ? -1 : 1)]);
   return (
     <motion.div style={{ x: translateX, left }} className="relative flex whitespace-nowrap">
+      <Phrase1 src={src} />
       <Phrase1 src={src} />
       <Phrase1 src={src} />
       <Phrase1 src={src} />
@@ -71,6 +73,7 @@ const Slide2: React.FC<SlideProps> = ({ src, direction, left, progress }) => {
       <Phrase2 src={src} />
       <Phrase2 src={src} />
       <Phrase2 src={src} />
+      <Phrase2 src={src} />
     </motion.div>
   );
 }
@@ -79,9 +82,9 @@ const Slide2: React.FC<SlideProps> = ({ src, direction, left, progress }) => {
 const Phrase: React.FC<PhraseProps> = ({ src }) => {
   return (
     <div className={'px-5 flex gap-10 items-center'}>
-      <p className='texts text-[2.5vw]  text-white py-20">
+      <p className='texts text-[2vw]  text-white py-20">
         My Projects'>Front End Developer</p>
-      <span className="img relative h-[4.5vw] aspect-[5/2] rounded-full overflow-hidden">
+      <span className="img relative h-[3vw] aspect-[5/2] rounded-full overflow-hidden">
         <Image src={src} alt="image" layout="fill" objectFit="cover" />
       </span>
     </div>
@@ -90,9 +93,9 @@ const Phrase: React.FC<PhraseProps> = ({ src }) => {
 const Phrase1: React.FC<PhraseProps> = ({ src }) => {
   return (
     <div className={'px-5 flex gap-10 items-center mt-2'}>
-      <p className='texts text-[2.5vw]  text-white py-20">
+      <p className='texts text-[2vw]  text-white py-20">
         My Projects'>Back End developer</p>
-      <span className="img relative h-[4.5vw] aspect-[5/2] rounded-full overflow-hidden">
+      <span className="img relative h-[3vw] aspect-[5/2] rounded-full overflow-hidden">
         <Image src={src} alt="image" layout="fill" objectFit="cover" />
       </span>
     </div>
@@ -101,9 +104,9 @@ const Phrase1: React.FC<PhraseProps> = ({ src }) => {
 const Phrase2: React.FC<PhraseProps> = ({ src }) => {
   return (
     <div className={'px-5 flex gap-10 items-center mt-2'}>
-      <p className='texts text-[2.5vw] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <p className='texts text-[2vw] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects'>Fullstack Developer</p>
-      <span className="img relative h-[4.5vw] aspect-[5/2] rounded-full overflow-hidden">
+      <span className="img relative h-[3vw] aspect-[5/2] rounded-full overflow-hidden">
         <Image src={src} alt="image" layout="fill" objectFit="cover" />
       </span>
     </div>

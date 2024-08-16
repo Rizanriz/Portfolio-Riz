@@ -1,3 +1,4 @@
+import About from "@/components/main/About";
 import Contact from "@/components/main/Contact";
 import Encryption from "@/components/main/Encryption";
 import Footer from "@/components/main/Footer";
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">
           <Hero/>
+          <About/>  
           <Skills/>
           <Text/>
           {/* <Encryption/> */}

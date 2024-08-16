@@ -21,10 +21,10 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <div className="icons flex gap-5 cursor-pointer text-white text-xl">
-                        <a href="https://www.linkedin.com/in/mohammedrizwanka" target='_blank'><RxLinkedinLogo /></a>
-                        <a href="https://github.com/Rizanriz" target='_blank'><RxGithubLogo /></a>
-                        <a href="https://www.instagram.com/riz_z_z_?igsh=NTlram95Nm9qbmx1" target='_blank'><RxInstagramLogo /></a>
+                <div className="icons flex gap-5 cursor-pointer text-white text-xl ">
+                        <a className='hover:scale-150 transition-all' href="https://www.linkedin.com/in/mohammedrizwanka" target='_blank'><RxLinkedinLogo /></a>
+                        <a className='hover:scale-150 transition-all' href="https://github.com/Rizanriz" target='_blank'><RxGithubLogo /></a>
+                        <a className='hover:scale-150 transition-all' href="https://www.instagram.com/riz_z_z_?igsh=NTlram95Nm9qbmx1" target='_blank'><RxInstagramLogo /></a>
                 </div>
             </div>
         </div>

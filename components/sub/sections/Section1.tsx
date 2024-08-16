@@ -7,7 +7,7 @@ function Section1() {
     <>
        <section id="about">
              <div className='about'>
-                <div className="about_img" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
+                <div className="about_img" >
                 <Image
                     src="/hero.jpeg"
                     alt="work icon" height={650} width={650}

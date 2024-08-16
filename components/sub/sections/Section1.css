@@ -56,15 +56,20 @@
     margin: 25px 0;
 }
 p{
-    font-size: 1.4vw
+    font-size: 1.4rem;
 }
-.about_info p span{
-    color: rgb(255, 164, 164);
+h5{
+    font-size: 1.4vw;
+    color: rgb(160, 160, 160);
+}
+.about_info h5 span{
+    color: rgb(255, 255, 255);
+    font-style: italic;
 }
 
 @media (max-width:950px) {
     .about{
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
     .about_info{
@@ -75,5 +80,22 @@ p{
 @media (max-width:550px) {
     .about_img{
         width: 80%;
+        height: 80%;
+    }
+    .about_info{
+        text-align: center;
+    }
+    .about_info p{
+        font-size: .9rem;
+    }
+    h5{
+        font-size: .8rem;
+    }
+    .about_info h3{
+        font-size: 20px;
+    }
+    .about_info h5 span{
+        font-size: .8rem;
+        padding: 0;
     }
 }

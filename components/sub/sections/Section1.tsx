@@ -14,12 +14,12 @@ function Section1() {
           />
           <div className="absolute top-5 left-5 w-full h-full border-2 border-purple-500 z-1"></div>
         </div>
-        <div className="w-1/2">
-          <h3 className="mb-5 text-5xl font-light">
+        <div className="w-1/2 ">
+          <h3 className="mb-5 text-5xl font-custom">
             About Me
           </h3>
-          <h3 className="text-5xl font-light mb-5">
-            I'm a <span className="font-medium border-b-2 border-pink-500">FULL STACK</span> Developer
+          <h3 className="text-5xl font-light mb-10 font-custom">
+            I&apos;m a <span className="font-medium border-b-2 border-pink-500">FULL STACK</span> Developer
           </h3>
           <p className="text-xl">
             Full Stack MERN Developer, I specialize in building responsive, dynamic, and scalable web applications using MongoDB, Express.js, React, and Node.js. With a strong foundation in JavaScript, I am adept at developing both client-side and server-side components, ensuring seamless integration and performance.

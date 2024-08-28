@@ -6,6 +6,11 @@
   font-family: x;
   src: url(../public/NotoSerif_Condensed-ExtraBoldItalic.ttf);
 }
+@font-face {
+  font-family: 'A';
+  src: url('../public/AlegreyaSansSC-Italic.ttf') format('truetype');
+}
+
 
 @tailwind base;
 @tailwind components;

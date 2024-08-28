@@ -5,16 +5,16 @@ const Section2 = () => {
     <>
       <section id="about" className="w-full flex flex-col items-center justify-around py-20 px-6 gap-5 text-white z-10">
         <div className="w-full text-center sm:text-left sm:pl-20 mt-20">
-          <h3 className="mb-5 text-5xl font-light">
-            EXPERIENCE
+          <h3 className="mb-5 text-5xl font-custom">
+            EXPERIENCE :
           </h3>
-          <p className="text-xl">
+          <p className="text-xl w-11/12">
             For the past seven months, I have been a part of Luminar Technolab, where I have honed my skills in the MERN stack. During this time, I have worked on various projects, enhancing my expertise in building responsive and dynamic web applications. My experience at Luminar has equipped me with hands-on knowledge in full-stack development, solidifying both my technical and problem-solving abilities.
           </p>
         </div>
-        <div className="w-full text-center sm:text-left sm:pl-20">
-          <h3 className="mb-5 text-5xl font-light">
-            AREAS OF EXPERTISE:
+        <div className="w-full text-center sm:text-left sm:pl-20 mt-5">
+          <h3 className="mb-5 text-5xl font-light font-custom">
+            AREAS OF EXPERTISE :
           </h3>
           <h5 className="text-2xl text-gray-500 mb-5">
             Languages: <span className="text-white italic">HTML, CSS, JavaScript, Node.js</span>

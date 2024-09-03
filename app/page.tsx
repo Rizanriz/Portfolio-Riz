@@ -9,6 +9,7 @@ import Text from "@/components/main/Text";
 import Slider from "@/components/sub/Slider";
 
 export default function Home() {
+  
   return (
     <main className="h-full w-full">
       <div className="flex flex-col gap-20">

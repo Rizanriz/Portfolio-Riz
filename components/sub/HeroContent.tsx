@@ -23,7 +23,7 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="hero flex flex-col gap-6 leading-normal mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="hero flex flex-col gap-6 leading-normal mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         > 
        
           <span>

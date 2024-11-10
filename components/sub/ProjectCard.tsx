@@ -16,14 +16,14 @@ const ProjectCard = ({ src, title, description,repoUrl }: Props) => {
         alt={title}
         width={1000}
         height={1000}
-        className="w-full object-contain "
+        className="w-fit object-contain "
       />
 
-      <div className="relative p-4">
+      <div className="relative p-4 ">
         <h1 className="text-2xl mt-2 font-semibold text-white">{title}</h1>
-        <p className="mt-2 mb-5 text-gray-300">{description}</p>
+        <p className="mt-2 mb-5 text-gray-300 max-w-md max-h-50">{description}</p>
         <a href={repoUrl} target="_blank"
-        className="text-blue-500 hover:underline cursor-pointer"> View Repository</a>
+        className="text-blue-500 hover:underline cursor-pointer "> View Repository</a>
       </div>
     </div>
   );

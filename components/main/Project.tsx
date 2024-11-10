@@ -13,7 +13,7 @@ const Projects = () => {
       
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 mb-10 ">
         <ProjectCard 
-          src="/spotify.png" 
+          src="/project imgs/spotify.png" 
           title="Spotify Lite"
           description="Spotify lite using React JS and Tailwind CSS. Leveraging React DOM for seamless user experience, I've crafted a visually appealing and highly functional front end."
           repoUrl="https://github.com/Rizanriz/Spotify-Clone"

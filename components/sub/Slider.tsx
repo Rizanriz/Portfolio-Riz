@@ -32,8 +32,8 @@ function Animation1() {
         target='_blank'><Image className='item-img mb-2' src={img6} alt="" /><p>Calculator</p></a></div>
         <div className="item item7">< a className='text' href=" https://rizanriz.github.io/FoodieXpress" 
         target='_blank'><Image className='item-img mb-2' src={img7} alt="" /><p>Food Delivery</p></a></div>
-        <div className="item item8">< a className='text' href="https://github.com/Rizanriz/Rejouice" 
-        target='_blank'><Image className='item-img mb-2' src={img8} alt="" /><p>Free Lance</p></a></div>
+        <div className="item item8">< a className='text' 
+        ><Image className='item-img mb-2' src={img8} alt="" /><p>Free Lance</p></a></div>
       </div>
     </>
   )

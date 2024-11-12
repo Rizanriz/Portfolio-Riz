@@ -28,7 +28,7 @@ const Projects = () => {
           src="/project imgs/auth.png"
           title="User Authentication"
           description="This project is a User Authentication Web Application built with the MERN stack and access a dashboard once authenticated. Welcome and reset password emails are sent using Mailtrap for testing purposes.."
-          repoUrl="https://github.com/Rizanriz/Portfolio-Riz"
+          repoUrl="https://github.com/Rizanriz/Auth"
         />
       </div>
 

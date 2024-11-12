@@ -9,7 +9,7 @@ function Section1() {
           <Image
             src="/hero.jpeg"
             alt="work icon"
-            height={500} width={500}
+            height={500} width={400}
             className="relative border-2 border-purple-500 "
           />
           {/* <div className="absolute top-5 left-5 w-full h-full border-2 border-purple-500 z-1"></div> */}

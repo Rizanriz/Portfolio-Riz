@@ -2,7 +2,6 @@
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import React, { useEffect, useRef } from 'react'
-import './About.css'
 import Section1 from '../sub/sections/Section1'
 import Section2 from '../sub/sections/Section2'
 

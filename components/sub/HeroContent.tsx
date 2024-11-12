@@ -16,14 +16,14 @@ const HeroContent = () => {
       <div className="w-full h-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div  
           variants={slideInFromTop}
-          className="Welcome-box py-[15px] px-[15px] border border-[#7042f88b] opacity-[0.9]" >
+          className="Welcome-box py-[15px] px-[15px] border border-[#7042f88b] opacity-[0.9] " >
           <SparklesIcon className='text-[#b49bff] mr-[10px] h-5 w-5' />
           <h1 className='Welcome-text text-[13px]'>Full Stack Developer</h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="hero flex flex-col gap-6 leading-normal mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="hero flex flex-col gap-6 leading-normal text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
         > 
        
           <span>

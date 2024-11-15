@@ -5,7 +5,7 @@ const Icons = () => {
   return (
     <div >
       <h1 className='text-white text-center mb-16 font-extrabold font-serif text-1xl sm:text-2xl lg:text-3xl'
-      >Connect / React Me..✨</h1>
+      >Connect / Reach Me..✨</h1>
       <div className='flex justify-center '>
         <ul className={styles.wrapper}>
           <li className={`${styles.icon} ${styles.facebook}`}>

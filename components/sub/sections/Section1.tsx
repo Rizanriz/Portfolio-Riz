@@ -12,13 +12,12 @@ function Section1() {
             height={500} width={400}
             className="relative border-2 border-purple-500 "
           />
-          {/* <div className="absolute top-5 left-5 w-full h-full border-2 border-purple-500 z-1"></div> */}
         </div>
         <div className="lg:w-1/2 sm:w-full">
-          <h3 className="mb-5 lg:text-5xl font-custom">
+          <h3 className="lg:mb-5 mb-2 lg:text-5xl text-lg font-custom">
             About Me
           </h3>
-          <h3 className="lg:text-5xl sm:text-3xl font-light mb-10 font-custom">
+          <h3 className="lg:text-5xl sm:text-3xl font-light lg:mb-10 mb-2 font-custom">
             I&apos;m a <span className="font-medium border-b-2 border-purple-500">FULL STACK</span> Developer
           </h3>
           <p className="lg:text-xl">

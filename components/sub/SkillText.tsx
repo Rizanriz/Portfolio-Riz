@@ -15,12 +15,12 @@ const SkillText = () => {
           <h1 className='Welcome-text text-[13px]'>Think better every day...</h1>
         </motion.div>
 
-        <motion.div variants={slideInFromLeft(0.5)} className='font-mono text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]'>
+        <motion.div variants={slideInFromLeft(0.5)} className='font-mono lg:text-[30px]  text-white font-medium mt-[10px] text-center mb-[15px]'>
             Skills that i have acquired over the Years
         </motion.div>
 
         <motion.div variants={slideInFromRight(0.5)} 
-        className='cursive text-[29px] text-gray-200 mb-10 mt-[10px] text-center'>
+        className='cursive lg:text-[30px] text-gray-200 mb-10 mt-[10px] text-center'>
             Making apps with modern technologies
         </motion.div>
     </div>

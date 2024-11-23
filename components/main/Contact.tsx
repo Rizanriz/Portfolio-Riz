@@ -33,7 +33,7 @@ function Contact(){
             <div className="contact">
                 <div>
                     <h2>Contact Me</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam dicta esse minima. Ea adipisci </p>
+                    <p> Have questions, ideas, or opportunities to share ? I'd love to hear from you ! and I'll get back to you as soon as possible.</p>
                 </div>
                     
                 <form onSubmit={onSubmit}>

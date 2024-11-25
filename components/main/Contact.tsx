@@ -33,7 +33,7 @@ function Contact(){
             <div className="contact">
                 <div>
                     <h2>Contact Me</h2>
-                    <p> Have questions, ideas, or opportunities to share ? I'd love to hear from you ! and I'll get back to you as soon as possible.</p>
+                    <p> Have questions, ideas, or opportunities to share ? I&apos;d love to hear from you ! and I&apos;ll get back to you as soon as possible.</p>
                 </div>
                     
                 <form onSubmit={onSubmit}>

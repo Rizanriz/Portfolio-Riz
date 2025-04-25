@@ -46,7 +46,7 @@ const HeroContent = () => {
           Mobile and Software development.Check out my projects and skills.
         </motion.p>
         <motion.a variants={slideInFromLeft(1)}
-        href='/Rizwan Professional Web Developer Resume.pdf'
+        href='/Rizwan Fullstack developer.pdf'
           target='blank'
           className='py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]'>
           Download CV..

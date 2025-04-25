@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 import React, { useEffect, useRef } from 'react'
 import Section1 from '../sub/sections/Section1'
 import Section2 from '../sub/sections/Section2'
+import Section3 from '../sub/sections/Section3'
 
 function About() {
 
@@ -16,13 +17,13 @@ function About() {
     const pin = gsap.fromTo(sectionRef.current, {
       translateX: 0
     }, {
-      translateX: '-100vw',
+      translateX: '-200vw',
       ease: 'none',
       duration:1,
       scrollTrigger: {
         trigger: trigerRef.current,
         start: "top top",
-        end: '2000 top',
+        end: '3000 top',
         scrub: 0.1,
         pin: true
       }
@@ -42,6 +43,9 @@ function About() {
             </div>
             <div className='scroll-section'>
               <Section2/>
+            </div>
+            <div className='scroll-section'>
+              <Section3/>
             </div>
           </div>
         </div>

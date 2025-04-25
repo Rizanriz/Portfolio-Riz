@@ -222,7 +222,7 @@ form input{
 }
 .scroll-section-inner{
   height: 100vh;
-  width: 200vw;
+  width: 300vw;
   display: flex;
   flex-direction: row;
   position: relative;

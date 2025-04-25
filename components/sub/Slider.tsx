@@ -23,11 +23,11 @@ function Animation1() {
         <div className="item item2">< a className='text' href="https://github.com/Rizanriz/Rejouice" 
         target='_blank'><Image className='item-img mb-2' src={img2} alt="" /><p>Sundown Studio</p></a></div>
         <div className="item item3">< a className='text' href="https://rizanriz.github.io/futurestic" 
-        target='_blank'><Image className='item-img mb-2' src={img3} alt="" /><p>Gaming website</p></a></div>
+        target='_blank'><Image className='item-img mb-2' src={img3} alt="" /><p>Gaming Website</p></a></div>
         <div className="item item4">< a className='text' href="https://github.com/Rizanriz/Rejouice" 
         target='_blank'><Image className='item-img mb-2' src={img4} alt="" /><p>Rejouice</p></a></div>
         <div className="item item5">< a className='text' href="https://github.com/Rizanriz/TravelGuide" 
-        target='_blank'><Image className='item-img mb-2' src={img5} alt="" /><p>Travel Guiad</p></a></div>
+        target='_blank'><Image className='item-img mb-2' src={img5} alt="" /><p>Travel Guide</p></a></div>
         <div className="item item6">< a className='text' href="https://github.com/Rizanriz/react-simple-calculator" 
         target='_blank'><Image className='item-img mb-2' src={img6} alt="" /><p>Calculator</p></a></div>
         <div className="item item7">< a className='text' href=" https://rizanriz.github.io/FoodieXpress" 

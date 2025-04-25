@@ -41,9 +41,9 @@ const Projects = () => {
         />
         <ProjectCard 
           src="/project imgs/ChatApp.png" 
-          title="Chat app (MERN)"
-          description="Spotify lite using React JS and Tailwind CSS. Leveraging React DOM for seamless user experience, I've crafted a visually appealing and highly functional front end."
-          repoUrl="https://github.com/Rizanriz/MERN-Chat-App"
+          title="Chat App"
+          description="Real-time chat application integrating Socket.io for instant messaging and live user status updates. The application features JWT-based authentication, efficient global state management with Zustand, and a responsive UI styled with TailwindCSS and Daisy UI."
+          repoUrl="https://github.com/Rizanriz/ChatBox"
         />
         <ProjectCard
           src="/project imgs/weatherApp.png"

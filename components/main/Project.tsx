@@ -40,7 +40,7 @@ const Projects = () => {
           repoUrl="https://github.com/Rizanriz/Quiz-App"
         />
         <ProjectCard 
-          src="/project imgs/ChatApp.png" 
+          src="/project imgs/chat.png" 
           title="Chat App"
           description="Real-time chat application integrating Socket.io for instant messaging and live user status updates. The application features JWT-based authentication, efficient global state management with Zustand, and a responsive UI styled with TailwindCSS and Daisy UI."
           repoUrl="https://github.com/Rizanriz/ChatBox"

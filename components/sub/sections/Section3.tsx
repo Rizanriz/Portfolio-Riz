@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <>
       <section id="about" className="w-full flex flex-col items-center justify-around py-20 px-6 gap-5 text-white z-10">
-        <div className="w-full text-center lg:text-left sm:pl-20 mt-5 " >
+        <div className="w-full text-left sm:pl-20 mt-5 " >
           <h3 className="mb-5 lg:text-4xl sm:text-2xl font-light font-custom ">
             AREAS OF EXPERTISE :
           </h3>

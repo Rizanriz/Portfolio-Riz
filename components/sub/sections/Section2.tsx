@@ -4,7 +4,7 @@ const Section2 = () => {
   return (
     <>
       <section id="about" className="w-full flex flex-col items-center justify-around py-20 px-6 gap-5 text-white z-10">
-        <div className="w-full text-center sm:text-left sm:pl-20 mt-20">
+        <div className="w-full text-left sm:pl-20 mt-20">
           <h3 className="mb-5 lg:text-4xl sm:text-sm font-custom">EXPERIENCE :</h3>
           <h2 className='mb-5 lg:text-3xl sm:text-sm font-custom'>Luminar Technolab
             <span className='mb-5 lg:text-2xl sm:text-sm font-custom'>MERN Stack Developer Intern : January 2024 – July 2024</span>

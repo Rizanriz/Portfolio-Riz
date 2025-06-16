@@ -4,11 +4,11 @@ const Section2 = () => {
   return (
     <>
       <section id="about" className="w-full flex flex-col items-center justify-around py-20 px-6 gap-5 text-white z-10">
-        <div className="w-full text-left sm:pl-20 mt-5 " >
-          <h3 className="mb-5 lg:text-4xl sm:text-2xl font-light font-custom ">
+        <div className="w-full text-left text-xl sm:pl-20 mt-5 " >
+          <h3 className="mb-5 lg:text-4xl text-2xl font-light font-custom ">
             AREAS OF EXPERTISE :
           </h3>
-          <div className='lg:text-2xl sm:text-sm '>
+          <div className='lg:text-2xl sm:text-sm space-y-4 '>
             <h5 className=" text-purple-500 lg:mb-5">
               Languages: <span className="text-white italic">HTML, CSS, JavaScript, Node.js</span>
             </h5>

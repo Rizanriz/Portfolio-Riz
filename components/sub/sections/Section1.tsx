@@ -4,20 +4,20 @@ import Image from 'next/image'
 function Section1() {
   return (
     <>
-      <section id="about" className="w-full flex flex-col md:flex-row items-center justify-around py-20 px-6 gap-5 text-white z-10">
+<section className="w-full flex flex-col-reverse md:flex-row items-center justify-around py-20 px-6 gap-5 text-white z-10">
         <div className="relative w-100 h-125 ">
           <Image
-            src="/hero.jpeg"
+            src="/me.png"
             alt="work icon"
-            height={500} width={400}
+            height={350} width={350}
             className="relative border-2 border-purple-500 "
           />
         </div>
         <div className="lg:w-1/2 sm:w-full">
-          <h3 className="lg:mb-5 mb-2 lg:text-5xl text-lg font-custom">
+          <h3 className="lg:mb-5 mb-2 lg:text-5xl text-2xl font-custom">
             About Me
           </h3>
-          <h3 className="lg:text-5xl sm:text-3xl font-light lg:mb-10 mb-2 font-custom">
+          <h3 className="lg:text-5xl text-2xl font-light lg:mb-10 mb-4 font-custom">
             I&apos;m a <span className="font-medium border-b-2 border-purple-500">FULL STACK</span> Developer
           </h3>
           <p className="lg:text-xl">
